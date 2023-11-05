@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="./stylesheet.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <div class="container-fluid" name="Header">
+    <div class="display-4 text-light">CarBoard <span class="badge bg-primary">WIP</span></div>
+  </div>
+  <div class="container w-50" name="Body">
+    <div class="row">
+      <div class="col text-center">
+        <div class="display-3 text-light mb-3">Recent Dreams</div>
+        <table class="table table-striped bg-light">
+          </style>
+          <thead>
+            <tr>
+              <th scope="col">Posted</th>
+              <th scope="col">Year</th>
+              <th scope="col">Make</th>
+              <th scope="col">Model</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <td></td>
+              <td>2021</td>
+              <td>Honda</td>
+              <td>Civic Type R</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2023</td>
+              <td>Porsche</td>
+              <td>911 Turbo S</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2017</td>
+              <td>Nissan</td>
+              <td>GT-R</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2023</td>
+              <td>Chevrolet</td>
+              <td>Corvette Z06</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2024</td>
+              <td>BMW</td>
+              <td>M340i</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="container w-50 bg-muted pb-3 rounded">
+          <div class="row">
+            <div class="col">
+              <form>
+                <div class="mt-3">
+                  <label for="inputYear" class="form-label text-light fw-bold">Year</label>
+                  <input type="number" class="form-control" id="inputYear" placeholder="1992" minlength="4" maxlength="4" required>
+                </div>
+                <div class="mt-3">
+                  <label for="inputMake" class="form-label text-light fw-bold">Make</label>
+                  <input type="text" class="form-control" id="inputMake" placeholder="Acura" maxlength="25" required>
+                </div>
+                <div class="mt-3">
+                  <label for="inputModel" class="form-label text-light fw-bold">Model</label>
+                  <input type="text" class="form-control" id="inputModel" placeholder="NSX" maxlength="25" required>
+                </div>
+                <div class="mt-3 text-end">
+                  <button type="submit" class="btn btn-light mt-3 fw-bold">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-light mt-5 fixed-bottom text-center">
+    <div class="row m-5">
+      <div class="col">
+        <p class="fw-light">CarBoard is a full-stack web application currently being developed by John Pham.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
